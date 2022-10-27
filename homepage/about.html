@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Flowers | About</title>
+        <link rel="icon" type="image/x-icon" href="./images/flowernobg.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="./styles.css"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <div class="container-fluid">
+                        <a href="./index.html"><img src="./images/flower.png" height="30" width="30" alt="flower icon"></a>
+                        <a class="navbar-brand" href="./index.html">Flowers</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample03">
+                            <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./license.html">License</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </nav>                
+            </header>
+            <main class="container-fluid">
+                <div class="imagecontainer">
+                    <image>
+                        <img src="./images/tulipsbg.jpg" class="tulipsbg">
+                    </image>
+                    <div class="textcontainer">
+                        <h1 class="carousel-caption text-dark">About</h1>
+                    </div>
+                </div>
+                <div class="card quote">
+                    <h6 class="card-body">"Excepteur sint non proident, sunt in culpa qui officia mollit anim id est laborum." - Hulk</h6>
+                </div>
+                <div class="paragraphcontainer">
+                    <p>
+                        Tempus quam pellentesque nec nam aliquam sem et tortor. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Venenatis cras sed felis eget velit aliquet sagittis id consectetur. Nunc sed augue lacus viverra vitae congue eu consequat ac. Felis eget nunc lobortis mattis aliquam faucibus purus in. Curabitur vitae nunc sed velit. Tristique senectus et netus et malesuada fames ac turpis egestas. Urna nunc id cursus metus. Nulla aliquet porttitor lacus luctus accumsan tortor posuere. Id consectetur purus ut faucibus pulvinar elementum integer enim. Interdum varius sit amet mattis vulputate enim. Adipiscing enim eu turpis egestas.
+                    </p>
+                    <p>
+                        Aenean sed adipiscing diam donec adipiscing tristique risus. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Commodo ullamcorper a lacus vestibulum sed arcu non odio. Neque sodales ut etiam sit amet nisl.
+                    </p>
+                    <p>
+                        Ultrices tincidunt arcu non sodales neque sodales ut etiam. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Aenean et tortor at risus viverra adipiscing at in. Felis imperdiet proin fermentum leo. Purus faucibus ornare suspendisse sed nisi lacus. Eget duis at tellus at urna condimentum mattis. Velit laoreet id donec ultrices tincidunt arcu non. Quam viverra orci sagittis eu. Enim nulla aliquet porttitor lacus. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Risus in hendrerit gravida rutrum quisque non. Mi bibendum neque egestas congue quisque egestas diam in arcu. Id venenatis a condimentum vitae sapien pellentesque habitant morbi tristique.
+                    </p>
+                </div>
+                <div class="subscribecontainer">
+                    <div>
+                        <h3 class="text-center">Subscribe</h3>
+                        <form id="form">
+                            <div class="row">
+                                <div class="inputbox col-8">
+                                    <input type="email" name="name" placeholder="E-mail" class="form-control" required="required">
+                                </div>
+                                <div class="submitbtn col-4">
+                                    <input type="submit" class="btn btn-dark btn-block">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <script>
+                document.getElementById("form").onsubmit = function() {myFunction()};
+
+                function myFunction() {
+                  alert("Thanks for subscribing!");
+                }
+            </script>
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                  <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">Home</a></li>
+                  <li class="nav-item"><a href="./about.html" class="nav-link px-2 text-muted">About</a></li>
+                  <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-muted">Contact</a></li>
+                  <li class="nav-item"><a href="./license.html" class="nav-link px-2 text-muted">License</a></li>
+                </ul>
+                <p class="text-center text-muted">a <a class="link-secondary" href="https://cs50.harvard.edu/x/2022/">CS50</a> project made by <a class="link-secondary" href="https://www.instagram.com/erickgnclvs/">erickgnclvs</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

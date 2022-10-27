@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: big O = 7.954 seconds / big omega = 1.348 seconds
+
+sort2 uses: merge sort
+
+How do you know?: big O = 1.109 seconds / big omega = 0.993 seconds
+
+sort3 uses: selection sort
+
+How do you know?: big O = 3.907 seconds / big omega = 3.753 seconds
